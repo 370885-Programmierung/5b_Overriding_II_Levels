@@ -4,9 +4,12 @@ public class App {
     
         Player player = new Player();
 
-        for (int i = 0; i < 12; i++) {
+        while (player.points<12) {
             ausgabe(player.play());  
         }
+        // for (int i = 0; i < 12; i++) {
+        //     ausgabe(player.play());  
+        // }
 
     }
 
